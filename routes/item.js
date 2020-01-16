@@ -83,4 +83,3 @@ router.patch('/item/:itemId',upload.single('itemImage'),(req, res) => {
 });
 
 module.exports=router;
-// module.exports=uploadRouter;
